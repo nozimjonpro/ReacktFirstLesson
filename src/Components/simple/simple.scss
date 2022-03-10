@@ -1,0 +1,47 @@
+.simple{
+    margin-bottom: 150px;
+}
+
+.simple .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simple__info{
+    max-width: 445px;
+    width: 100%;
+}
+
+.simple__heading{
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536b;
+}
+
+.simple__text{
+    margin: 0;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6c8294;
+    opacity: 0.8;
+}
+
+.simple__image-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.simple__item + .simple__item{
+    margin-left: 40px;
+}
+
+.simple__image{
+    border-radius: 35px;
+}

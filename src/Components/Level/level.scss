@@ -1,0 +1,43 @@
+.level {
+  margin-bottom: 150px;
+}
+
+.level__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.level__item {
+  max-width: 350px;
+  width: 100%;
+  &::before {
+    display: block;
+    margin: 0 auto;
+    content: "";
+    width: 106px;
+    height: 106px;
+    background-image: url(../../Assets/images/money.svg);
+    background-repeat: no-repeat;
+  }
+}
+
+.level__heading{
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.138462px;
+color: #36536B;
+}
+
+.level__text{
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.115385px;
+color: #6C8294;
+}
