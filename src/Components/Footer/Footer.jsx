@@ -29,7 +29,7 @@ function Footer() {
         </div>
         <ul className="footer__socials">
           <li className="footer__social-icon">
-            <a href="" className="footer-icon">
+            <a href="#bnnma" className="footer-icon">
               <svg
                 width="24"
                 height="24"
@@ -44,7 +44,7 @@ function Footer() {
             </a>
           </li>
           <li className="footer__social-icon">
-            <a href="" className="footer-icon">
+            <a href="#bnnma" className="footer-icon">
               <svg
                 width="24"
                 height="20"
@@ -59,7 +59,7 @@ function Footer() {
             </a>
           </li>
           <li className="footer__social-icon">
-            <a href="" className="footer-icon">
+            <a href="#bnnma" className="footer-icon">
               <svg
                 width="24"
                 height="24"
